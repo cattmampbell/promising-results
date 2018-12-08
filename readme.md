@@ -24,17 +24,18 @@
 
 * Create your own JavaScript file in which to write your code, and import it into your `index.html` file **below** the import for `async-math.js`.
 * In your JavaScript file, create a Promise chain that uses **SlowMath** to perform _all_ of the following operations, in this exact order:
-  1. Add together 6 and 2.
-  2. Wait on the result, log it, and then multiply the result by 2.
-  3. Wait on the result, log it, and then divide the result by 4.
-  4. Wait on the result, log it, and then subtract 3 from the result.
-  5. Wait on the result, log it, and then add 98 to the result.
-  6. Wait on the result, log it, and then find the remainder from dividing the result by 2.
-  7. Wait on the result, log it, and then multiply the result by 50.
-  8. Wait on the result, log it, and then find the remainder from dividing the result by 40.
-  9. Wait on the result, log it, and then add 32 to the result.
-  10. Wait on the result, and then log: The final result is \_\_\_, where you fill in the blank with the final result.
-  11. Add a `.catch` function to handle any errors that occur, and log the error to the console.
+    1. Add together 6 and 2.
+    2. Wait on the result, log it, and then multiply the result by 2.
+    3. Wait on the result, log it, and then divide the result by 4.
+    4. Wait on the result, log it, and then subtract 3 from the result.
+    5. Wait on the result, log it, and then add 98 to the result.
+    6. Wait on the result, log it, and then find the remainder from dividing the result by 2.
+    7. Wait on the result, log it, and then multiply the result by 50.
+    8. Wait on the result, log it, and then find the remainder from dividing the result by 40.
+    9. Wait on the result, log it, and then add 32 to the result.
+    10. Wait on the result, and then log: The final result is \_\_\_, where you fill in the blank with the final result.
+    11. Add a `.catch` function to handle any errors that occur, and log the error to the console.
+    
 * Open `index.html` in your browser and open the developer console. If you've done everything correctly, you should see values being logged to the console once per second, ending with a final result of 42.
 * When you are finished with that, try changing the very first step to add together 1 and 1, instead of 6 and 2. 
     * What happens? 
