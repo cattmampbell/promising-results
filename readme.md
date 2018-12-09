@@ -1,7 +1,7 @@
 ## Info
 
-* You have been given a starter project containing an `index.html` file and an `async-math.js` file
-* `async-math.js` contains a JavaScript library called **SlowMath**. 
+* You have been given a starter project containing an `index.html` file and an `slowmath.js` file
+* `slowmath.js` contains a JavaScript library called **SlowMath**. 
     * It has already been imported into your   `index.html` file and will be available in a global variable called `slowMath`.
 * **SlowMath** contains a series of functions that take two numbers as arguments, and return Promises that resolve with the answer or reject under certain conditions
   * `slowMath.add(val1, val2)` 
@@ -22,7 +22,7 @@
 
 ## Objectives
 
-* Create your own JavaScript file in which to write your code, and import it into your `index.html` file **below** the import for `async-math.js`.
+* Create your own JavaScript file in which to write your code, and import it into your `index.html` file **below** the import for `slowmath.js`.
 * In your JavaScript file, create a Promise chain that uses **SlowMath** to perform _all_ of the following operations, in this exact order:
     1. Add together 6 and 2.
     2. Wait on the result, log it, and then multiply the result by 2.
