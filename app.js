@@ -24,13 +24,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }).then((result) => {
             // Should log, '6 + 2 = 8!', to the console
             console.log(
-                `%c6 %c+%c 2%c = %c ${result} %c!`,
+                `%c6 %c+%c 2%c = %c ${result} `,
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 400; color: #343a40;',
-                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;',
-                'font-size: 12px; font-weight: 400; color: #343a40;'
+                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;'
             )
             return new Promise((resolve, reject) => {
                 // Multiplies 8 by 2 
@@ -40,13 +39,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }).then((result) => {
             // Should log, '8 * 2 = 16!', to the console
             console.log(
-                `%c8 %c*%c 2%c = %c ${result} %c!`,
+                `%c8 %c*%c 2%c = %c ${result} `,
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 400; color: #343a40;',
-                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;',
-                'font-size: 12px; font-weight: 400; color: #343a40;'
+                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;'
             )
             return new Promise((resolve, reject) => {
                 // Divides 16 by 4 
@@ -56,13 +54,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }).then((result) => {
             // Should log, '16 / 4 = 4!', to the console
             console.log(
-                `%c16 %c/%c 4%c = %c ${result} %c!`,
+                `%c16 %c/%c 4%c = %c ${result} `,
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 400; color: #343a40;',
-                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;',
-                'font-size: 12px; font-weight: 400; color: #343a40;'
+                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;'
             )
             return new Promise((resolve, reject) => {
                 // Subtracts 4 by 3 
@@ -72,13 +69,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }).then((result) => {
             // Should log, '4 - 3 = 1!', to the console
             console.log(
-                `%c4 %c-%c 3%c = %c ${result} %c!`,
+                `%c4 %c-%c 3%c = %c ${result} `,
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 400; color: #343a40;',
-                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;',
-                'font-size: 12px; font-weight: 400; color: #343a40;'
+                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;'
             )
             return new Promise((resolve, reject) => {
                 // Adds 1 by 98
@@ -88,13 +84,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }).then((result) => {
             // Should log, '1 + 98 = 99', to the console
             console.log(
-                `%c1 %c+%c 98%c = %c ${result} %c!`,
+                `%c1 %c+%c 98%c = %c ${result} `,
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 400; color: #343a40;',
-                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;',
-                'font-size: 12px; font-weight: 400; color: #343a40;'
+                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;'
             )
             return new Promise((resolve, reject) => {
                 // Remainder of 99 and 2
@@ -104,13 +99,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }).then((result) => {
             // Should log, '99 % 2 = 1', to the console
             console.log(
-                `%c99%c % %c 2%c = %c ${result} %c!`,
+                `%c99%c % %c 2%c = %c ${result} `,
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 400; color: #343a40;',
-                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;',
-                'font-size: 12px; font-weight: 400; color: #343a40;'
+                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;'
             )
             return new Promise((resolve, reject) => {
                 // Multiplies 1 by 50 
@@ -120,13 +114,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }).then((result) => {
             // Should log, '1 * 50 = 50', to the console
             console.log(
-                `%c1 %c*%c 50%c = %c ${result} %c!`,
+                `%c1 %c*%c 50%c = %c ${result} `,
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 400; color: #343a40;',
-                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;',
-                'font-size: 12px; font-weight: 400; color: #343a40;'
+                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;'
             )
             return new Promise((resolve, reject) => {
                 // Remainder of 50 and 40
@@ -136,13 +129,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }).then((result) => {
             // Should log, '50 % 40 = 10', to the console
             console.log(
-                `%c50%c % %c40%c = %c ${result} %c!`,
+                `%c50%c % %c40%c = %c ${result} `,
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 400; color: #343a40;',
-                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;',
-                'font-size: 12px; font-weight: 400; color: #343a40;'
+                'font-size: 12px; font-weight: 900; color: #343a40; background-color: rgba(255, 193, 7, 0.375); border-radius: 12px;'
             )
             return new Promise((resolve, reject) => {
                 // Adds 10 by 32
@@ -153,7 +145,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             // Should log, '10 + 32 = 42', to the console
             console.log(
                 `%cThe final result is: %c 10%c + %c32%c = %c ${result} %c!`,
-                'font-size: 12px; font-weight: 400; color: #343a40; background-color: rgba(248, 249, 250, 0.975); border-radius: 12px;',
+                'font-size: 12px; font-weight: 400; color: #343a40; background-color: rgba(108, 117, 125, 0.125); border-radius: 12px;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
                 'font-size: 12px; font-weight: 900; color: #343a40;',
                 'font-size: 12px; font-weight: 500; color: #343a40;',
